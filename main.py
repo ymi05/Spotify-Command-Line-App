@@ -1,7 +1,11 @@
 from Search_Operations import Search_Ops
 import json
+import pyfiglet
+from Items import Artist
 
-from artists import Artist
+from pyfiglet import figlet_format
+print(figlet_format('Spotify!', font='starwars'))
+
 
 
 item = str(input("Please enter an artist's name:\t"))
